@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/514032940534572422/5e039fd74f4a47709f4201b5ce6fa774/artifacts
+end_time: 1763989534924
+entry_point_name: ''
+experiment_id: '514032940534572422'
+lifecycle_stage: active
+run_id: 5e039fd74f4a47709f4201b5ce6fa774
+run_name: RandomForest_Tuned_20251124_195055
+run_uuid: 5e039fd74f4a47709f4201b5ce6fa774
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1763988656122
+status: 3
+tags: []
+user_id: zidan

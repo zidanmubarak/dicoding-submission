@@ -1,0 +1,22 @@
+digest: 9092108d
+name: dataset
+profile: '{"num_rows": 8000, "num_elements": 144000}'
+schema: '{"mlflow_colspec": [{"type": "double", "name": "Year", "required": true},
+  {"type": "double", "name": "Average_Temperature_C", "required": true}, {"type":
+  "double", "name": "Total_Precipitation_mm", "required": true}, {"type": "double",
+  "name": "CO2_Emissions_MT", "required": true}, {"type": "double", "name": "Extreme_Weather_Events",
+  "required": true}, {"type": "double", "name": "Irrigation_Access_%", "required":
+  true}, {"type": "double", "name": "Pesticide_Use_KG_per_HA", "required": true},
+  {"type": "double", "name": "Fertilizer_Use_KG_per_HA", "required": true}, {"type":
+  "double", "name": "Soil_Health_Index", "required": true}, {"type": "double", "name":
+  "Climate_Stress", "required": true}, {"type": "double", "name": "Resource_Efficiency",
+  "required": true}, {"type": "double", "name": "Environmental_Impact", "required":
+  true}, {"type": "double", "name": "Country_Encoded", "required": true}, {"type":
+  "double", "name": "Region_Encoded", "required": true}, {"type": "double", "name":
+  "Crop_Type_Encoded", "required": true}, {"type": "double", "name": "Adaptation_Strategies_Encoded",
+  "required": true}, {"type": "double", "name": "Temperature_Category_Encoded", "required":
+  true}, {"type": "double", "name": "Precipitation_Category_Encoded", "required":
+  true}]}'
+source: '{"tags": {"mlflow.user": "zidan", "mlflow.source.name": ".\\modelling.py",
+  "mlflow.source.type": "LOCAL"}}'
+source_type: code

@@ -43,7 +43,7 @@ Repository ini merupakan dokumentasi portofolio dari perjalanan belajar saya di 
 |----|-------|------------|--------|--------|
 | 1 | Belajar Machine Learning untuk Pemula | [Lihat Submission](./Belajar%20Machine%20Learning%20untuk%20Pemula/) | ✅ | ⭐⭐⭐⭐⭐ |
 | 2 | Belajar Fundamental Deep Learning | *Coming Soon* | ⏳ | - |
-| 3 | Membangun Sistem Machine Learning | *Coming Soon* | ⏳ | - |
+| 3 | Membangun Sistem Machine Learning | [Lihat Submission](./Membangun%20Sistem%20Machine%20Learning/) | ✅ | ⭐⭐⭐⭐⭐ |
 | 4 | Machine Learning Terapan | *Coming Soon* | ⏳ | - |
 
 ### Data Science
@@ -90,8 +90,8 @@ Setiap folder submission akan mengandung:
 ### Clone Repository
 
 ```bash
-git clone https://github.com/[username]/Submission_Dicoding.git
-cd Submission_Dicoding
+git clone https://github.com/zidanmubarak/dicoding-submission.git
+cd dicoding-submission
 ```
 
 ### Navigasi
@@ -110,9 +110,9 @@ Setiap submission memiliki README sendiri yang menjelaskan:
 
 | Kategori | Total Submission | Completed |
 |----------|-----------------|-----------|
-| Machine Learning | 1 | 1 |
+| Machine Learning | 2 | 2 |
 | Data Science | 0 | 0 |
-| **Total** | **1** | **1** |
+| **Total** | **2** | **2** |
 
 </div>
 
@@ -145,15 +145,6 @@ Berikut adalah template yang digunakan untuk menyimpan feedback reviewer:
 ## Catatan Tambahan
 [Catatan lain yang perlu diingat]
 ```
-
----
-
-## Kontribusi
-
-Jika Anda memiliki saran atau menemukan kesalahan, silakan:
-1. Fork repository ini
-2. Buat branch baru
-3. Submit Pull Request
 
 ---
 

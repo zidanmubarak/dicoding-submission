@@ -1,0 +1,69 @@
+# Prometheus Configuration for Climate Change ML Monitoring
+# Author: Zidan Mubarak
+# Description: Prometheus config untuk monitoring ML API dan sistem
+
+global:
+  scrape_interval: 15s  # Scrape targets every 15 seconds
+  evaluation_interval: 15s  # Evaluate rules every 15 seconds
+  external_labels:
+    monitor: 'climate-change-ml-monitor'
+    environment: 'production'
+
+# Alertmanager configuration (optional)
+alerting:
+  alertmanagers:
+    - static_configs:
+        - targets:
+          # - 'localhost:9093'  # Uncomment if using Alertmanager
+
+# Load rules once and periodically evaluate them
+rule_files:
+  # - "alert_rules.yml"  # Uncomment if you have alert rules file
+
+# Scrape configurations
+scrape_configs:
+  # Job 1: Scrape Prometheus itself
+  - job_name: 'prometheus'
+    static_configs:
+      - targets: ['localhost:9090']
+        labels:
+          service: 'prometheus'
+          team: 'monitoring'
+
+  # Job 2: Scrape ML Inference API
+  - job_name: 'ml_model_exporter'
+    scrape_interval: 10s  # Scrape more frequently for ML API
+    static_configs:
+      - targets: ['localhost:5002']
+        labels:
+          service: 'ml-inference-api'
+          model: 'climate-change-rf'
+          team: 'ml-engineering'
+    metrics_path: '/metrics'
+
+  # Job 3: Scrape Custom System Exporter
+  - job_name: 'system_exporter'
+    scrape_interval: 10s
+    static_configs:
+      - targets: ['localhost:8001']
+        labels:
+          service: 'system-metrics'
+          team: 'infrastructure'
+    metrics_path: '/metrics'
+
+  # Job 4: Node Exporter (if installed)
+  - job_name: 'node_exporter'
+    static_configs:
+      - targets: ['localhost:9100']
+        labels:
+          service: 'node-exporter'
+          team: 'infrastructure'
+    # Uncomment if you have node_exporter installed
+
+# Remote write configuration (optional - for long-term storage)
+# remote_write:
+#   - url: "http://localhost:9009/api/v1/push"
+
+# Remote read configuration (optional)
+# remote_read:
+#   - url: "http://localhost:9009/api/v1/read"
