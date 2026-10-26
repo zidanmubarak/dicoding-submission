@@ -44,7 +44,7 @@ Repository ini merupakan dokumentasi portofolio dari perjalanan belajar saya di 
 | 1 | Belajar Machine Learning untuk Pemula | [Lihat Submission](./Belajar%20Machine%20Learning%20untuk%20Pemula/) | ✅ | ⭐⭐⭐⭐⭐ |
 | 2 | Belajar Fundamental Deep Learning | *Coming Soon* | ⏳ | - |
 | 3 | Membangun Sistem Machine Learning | [Lihat Submission](./Membangun%20Sistem%20Machine%20Learning/) | ✅ | ⭐⭐⭐⭐⭐ |
-| 4 | Machine Learning Terapan | *Coming Soon* | ⏳ | - |
+| 4 | Machine Learning Terapan | [Lihat Submission](./Machine%20Learning%20Terapan/) | ✅ | ⭐⭐⭐⭐⭐ |
 
 ### Data Science
 
@@ -110,9 +110,9 @@ Setiap submission memiliki README sendiri yang menjelaskan:
 
 | Kategori | Total Submission | Completed |
 |----------|-----------------|-----------|
-| Machine Learning | 2 | 2 |
+| Machine Learning | 3 | 3 |
 | Data Science | 0 | 0 |
-| **Total** | **2** | **2** |
+| **Total** | **3** | **3** |
 
 </div>
 
