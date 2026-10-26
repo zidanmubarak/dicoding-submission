@@ -1,0 +1,4 @@
+google-sheets-api.json
+.pytest*
+__pycache__
+.coverage

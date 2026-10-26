@@ -1,0 +1,23 @@
+# Cara Menjalankan Skrip ETL Pipeline
+
+1. Pastikan semua dependensi terinstall:
+   pip install -r requirements.txt
+
+2. Pastikan file google-sheets-api.json tersedia di root direktori
+
+3. Jalankan skrip ETL pipeline:
+   python main.py
+
+# Cara Menjalankan Unit Test
+
+1. Jalankan unit test:
+   python -m pytest tests
+
+# Cara Menjalankan Test Coverage
+
+1. Jalankan test coverage:
+   coverage run -m pytest tests
+   coverage report -m
+
+# URL Google Sheets
+https://docs.google.com/spreadsheets/d/1D0ZMfA7PIVfRjpNpkJyuXN.../edit?usp=sharing

@@ -50,7 +50,7 @@ Repository ini merupakan dokumentasi portofolio dari perjalanan belajar saya di 
 
 | No | Kelas | Submission | Status | Rating |
 |----|-------|------------|--------|--------|
-| 1 | Belajar Fundamental Pemrosesan Data | *Coming Soon* | ⏳ | - |
+| 1 | Belajar Fundamental Pemrosesan Data | [Lihat Submission](./Belajar%20Fundamental%20Pemrosesan%20Data/) | ✅ | ⭐⭐⭐⭐⭐ |
 | 2 | Belajar Fundamental Analisis Data | *Coming Soon* | ⏳ | - |
 | 3 | Belajar Penerapan Data Science | *Coming Soon* | ⏳ | - |
 
@@ -111,8 +111,8 @@ Setiap submission memiliki README sendiri yang menjelaskan:
 | Kategori | Total Submission | Completed |
 |----------|-----------------|-----------|
 | Machine Learning | 3 | 3 |
-| Data Science | 0 | 0 |
-| **Total** | **3** | **3** |
+| Data Science | 1 | 1 |
+| **Total** | **4** | **4** |
 
 </div>
 
